@@ -2,4 +2,5 @@
 
 1. [Demo](https://fuadsuleymanli.xyz/Demos/withajaxfromjson/) 
 
-![SreenShot](screenshot.gif)
+###
+![ScreenShot](screenshot.gif)

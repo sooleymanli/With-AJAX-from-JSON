@@ -1,0 +1,108 @@
+{
+    "class": [
+        {
+            "students": [
+                {
+                    "id": "1",
+                    "name": "Fuad",
+                    "surname": "Süleymanlı",
+                    "tel": "0509993366"
+                },
+                {
+                    "id": "2",
+                    "name": "Fərid",
+                    "surname": "Süleymanlı",
+                    "tel": "0516411455"
+                },
+                {
+                    "id": "3",
+                    "name": "Şamil",
+                    "surname": "Xalid",
+                    "tel": "0519663334"
+                },
+                {
+                    "id": "4",
+                    "name": "Murad",
+                    "surname": "Cəlilzadə",
+                    "tel": "0506660050"
+                },
+                {
+                    "id": "5",
+                    "name": "Ceyhun",
+                    "surname": "Ahmedov",
+                    "tel": "XXX-XX-XX"
+                },
+                {
+                    "id": "6",
+                    "name": "Kamran",
+                    "surname": "Manafov",
+                    "tel": "XXX-XX-XX"
+                },
+                {
+                    "id": "7",
+                    "name": "Qüdrət",
+                    "surname": "Rüstəmov",
+                    "tel": "XXX-XX-XX"
+                },
+                {
+                    "id": "8",
+                    "name": "Samir",
+                    "surname": "Qafarlı",
+                    "tel": "XXX-XX-XX"
+                }
+            ]
+        },
+        {
+            "teachers": [
+                {
+                    "id": "1",
+                    "name": "Azər",
+                    "surname": "Süleymanov",
+                    "tel": "XXX-XX-XX"
+                },
+                {
+                    "id": "2",
+                    "name": "Nəriman",
+                    "surname": "Rəhimov",
+                    "tel": "XXX-XX-XX"
+                },
+                {
+                    "id": "3",
+                    "name": "Məhəmməd ",
+                    "surname": "Xalid",
+                    "tel": "XXX-XX-XX"
+                },
+                {
+                    "id": "4",
+                    "name": "Sultan",
+                    "surname": "Rəhimov",
+                    "tel": "XXX-XX-XX"
+                },
+                {
+                    "id": "5",
+                    "name": "Süleyman",
+                    "surname": "Süleymanov",
+                    "tel": "XXX-XX-XX"
+                },
+                {
+                    "id": "6",
+                    "name": "Fatma",
+                    "surname": "Hacıyeva",
+                    "tel": "XXX-XX-XX"
+                },
+                {
+                    "id": "7",
+                    "name": "Ramiz",
+                    "surname": "Səttərov",
+                    "tel": "XXX-XX-XX"
+                },
+                {
+                    "id": "8",
+                    "name": "Vaqif",
+                    "surname": "Abdullayev",
+                    "tel": "XXX-XX-XX"
+                }
+            ]
+        }
+    ]
+}

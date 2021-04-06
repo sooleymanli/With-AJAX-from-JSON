@@ -1,0 +1,106 @@
+#students{
+transition:2s ease-in-out;
+display: none;
+    
+}
+#teachers{
+    transition:2s ease-in-out;
+    display: none;
+    
+
+}
+
+.img-class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    animation: noneAnimation;
+    animation-duration: 2s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+    position: absolute;
+    top: 50px;
+ 
+}
+table{
+    cursor: pointer;
+}
+
+  
+.fade-in {
+	animation: fadeIn 3s;
+  	opacity: 1;
+}
+.buttons-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+
+
+#students-hide{
+    display: none;
+}
+
+#teachers-hide{
+    display: none;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+       opacity: 1;
+    }
+  }
+
+
+  @keyframes noneAnimation{
+      0%{
+          opacity: 1;;
+      }
+      25%{
+          opacity: 0.75;
+      }
+      50%{
+          opacity: 0.5;
+      }
+      75%{
+          opacity: 0.25;
+      }
+      100%{
+     opacity: 0;
+      }
+  }
+
+
+  button{
+      margin: 5px;
+      width: 300px;
+  }
+
+
+
+  @media screen and (max-width: 600px) {
+    .buttons-group{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+  }
+
+  span{
+  font-size: 20px;
+    color: #DC3545;
+  }
+
+  span:hover{
+      color: #007BFF;
+  }

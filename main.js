@@ -71,7 +71,7 @@ setTimeout(()=>{
         <td>${element.name}</td>
         <td>${element.surname}</td>
         <td>${element.tel}</td>
-        <td><span onclick="deleterow(${index})"><i class="fas fa-trash"></i></span></td>
+        <td><span onclick="deleterowT(${index})"><i class="fas fa-trash"></i></span></td>
         </tr>
        `
     });
@@ -109,10 +109,15 @@ teachersTableHideBtn.addEventListener("click",()=>{
 
 //Delete row
 function deleterow(index){
-    
-    let newTr =document.querySelectorAll("#tbody-student tr")
+        let newTr =document.querySelectorAll("#tbody-student tr")
         newTr[index].hidden="true"
-        console.log(newTr);
-    
+        }
+
+
+
+//Delete row Teacher
+function deleterowT(index){
+    let newTrTeach =document.querySelectorAll("#tbody-teacher tr")
+    newTrTeach[index].hidden="true"
     }
 
